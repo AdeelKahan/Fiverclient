@@ -1,17 +1,18 @@
 import { makeStyles } from '@material-ui/core';
+import { FullscreenExit } from '@material-ui/icons';
 import React from 'react';
 // import './App.css'
-import Header from './Components/Navbar/Header';
+import Header from './Components/Header/Header';
 
 const useStyles = makeStyles((theme)=>({
   root:{
-    
+    clear:'both',
     // margin:'auto',
-    minHeight:'100vh',
-    backgroundColor:'gray',
+    backgroundColor:'white',
     // backgroundImage:`url(${process.env.PUBLIC_URL + "/assets/images/image1.png"})`,
-    backgroundRepeat:'no-repeat',
-    backgroundSize:'cover',
+    // backgroundRepeat:'no-repeat',
+    // backgroundSize:'cover',
+    
     // opacity:'0.5'
 
   },
